@@ -1,0 +1,32 @@
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/*Header design*/
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.nav-title{
+font-weight:800px;
+font-size: 34px;
+color: #4E47FF;
+}
+
+.sign-up-btn{
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 35px;
+  border-radius: 10px;
+  background-color: #4E47FF;
+  color: white;
+  border-style: none;
+}
+.sign-up-btn:hover{
+ background-color: #F2C60E;
+ animation: pulseButton 0.5s ease-in-out forwards;
+}
